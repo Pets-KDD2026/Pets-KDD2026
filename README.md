@@ -1,6 +1,6 @@
 # Pets (Submitted to ICLR 2025)
 
-### This is an offical implementation of "Pets: Generalizable Pattern Assisted Architecture for Time Series Analysis" submitted to NIPS2025.
+### This is an offical implementation of "Pets: Generalizable Pattern Assisted Architecture for Time Series Analysis" submitted to NIPS2025.. 
 
 [//]: # (:triangular_flag_on_post: Our model has been included in [GluonTS]&#40;https://github.com/awslabs/gluonts&#41;. Special thanks to the contributor @[kashif]&#40;https://github.com/kashif&#41;!)
 
@@ -11,9 +11,9 @@
 
 This paper presents a novel architecture capable of adapting to various time-series analysis tasks. Such a universal pattern recognition strategy can enhance the performance of existing methods.
 
-![alt text](https://github.com/sa13d3asda/Pets-NIPS2025/blob/main/pic/pic1.png)
+![alt text](pic/pic1.png)
 
-![alt text](https://github.com/sa13d3asda/Pets-NIPS2025/blob/main/pic/pic2.png)
+![alt text](pic/pic2.png)
 
 ## Results
 
@@ -23,7 +23,7 @@ This paper presents a novel architecture capable of adapting to various time-ser
 
 :star2: **plug-and-play augmentation strategy**: Pets can consistently enhance the performance of disparate model architectures on extensive datasets and tasks.
 
-![alt text](https://github.com/sa13d3asda/Pets-NIPS2025/blob/main/pic/pic3.png)
+![alt text](pic/pic3.png)
 
 The proposed Spectrum Decomposition and Amplitude Quantization (SDAQ) and Fluctuation Pattern Assisted (FPA) strategy can be seamlessly integrated into various deep models, in a plug-and-play fashion. This prompts us to investigate its generality by inserting FPA into diverse types of structures. We selected representative baselines composed of divergent underlying architectures. 
 
@@ -31,25 +31,25 @@ Concretely, the attention-based PatchTST witnessed performance improvements of *
 
 ### Long-term Forecasting
 
-![alt text](https://github.com/sa13d3asda/Pets-NIPS2025/blob/main/pic/table1.png)
+![alt text](pic/table1.png)
 
 Pets outperforms other models in long-term forecasting across various datasets. The MSE of Pets is reduced by **8.7%** and **15.1%** compared to the TimeMixer and iTransformer, respectively. For ETT (Avg), Pets achieves **7.4%** lower MSE than TimeMixer. Specifically, it outperforms the runner-up model by a margin of **13.4%** and **19.7%** on the challenging Solar-Energy.
 
 ### Short-term Forecasting
 
-![alt text](https://github.com/sa13d3asda/Pets-NIPS2025/blob/main/pic/table2.png)
+![alt text](pic/table2.png)
 
-![alt text](https://github.com/sa13d3asda/Pets-NIPS2025/blob/main/pic/table3.png)
+![alt text](pic/table3.png)
 
 In the M4 dataset, compared to the challenging TimeMixer and TimesNet, Pets accomplishes a reduction of **5.6%** and **7.2%** in MASE, respectively. Within the PEMS, in comparison to the leading TimeMixer and iTransformer, Pets reduces MAPE by **5.7%** and **20.3%**. Remarkably, in comparison with the conventional PatchTST, Pets exhibits performance augmentations on M4 and PEMS that exceed **24.4%** and **33.1%**.
 
 ### Anomaly Detection
 
-![alt text](https://github.com/sa13d3asda/Pets-NIPS2025/blob/main/pic/table4.png)
+![alt text](pic/table4.png)
 
 ### Classification
 
-![alt text](https://github.com/sa13d3asda/Pets-NIPS2025/blob/main/pic/table5.png)
+![alt text](pic/table5.png)
 
 ## Getting Started
 
