@@ -22,5 +22,12 @@ bash ./scripts/long_term_forecast/ETT_script/PatchTST_Adapter/ETTm2_16.sh
 
 ### Anomaly Detection
 
+bash ./scripts/anomaly_detection/SMD/PatchTST_Adapter_8.sh
+
+bash ./scripts/anomaly_detection/SMD/PatchTST_Adapter_16.sh
+
+bash ./scripts/anomaly_detection/SMD/PatchTST_Adapter_32.sh
+
 bash ./scripts/anomaly_detection/SMD/TimeMixer_Adapter.sh
 
+bash ./scripts/anomaly_detection/SMD/TimesNet_Adapter.sh
