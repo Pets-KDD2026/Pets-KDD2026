@@ -31,3 +31,15 @@ bash ./scripts/anomaly_detection/SMD/PatchTST_Adapter_32.sh
 bash ./scripts/anomaly_detection/SMD/TimeMixer_Adapter.sh
 
 bash ./scripts/anomaly_detection/SMD/TimesNet_Adapter.sh
+
+### Zero-shot Forecasting
+
+bash ./scripts/zero_shot/PatchTST_Adapter/ETTh1_32.sh
+
+bash ./scripts/zero_shot/PatchTST_Adapter/ETTh2_16.sh
+
+bash ./scripts/zero_shot/PatchTST_Adapter/ETTm1_16.sh
+
+bash ./scripts/zero_shot/PatchTST_Adapter/ETTm2_16.sh
+
+
