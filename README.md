@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 3. Download data. You can download all the datasets from [Autoformer](https://drive.google.com/drive/folders/1ZOYpTUa82_jCcxIdTmyr0LXQfvaM9vIy). Create a seperate folder ```./dataset``` and put all the csv files in the directory.
 
-4. Training. All the scripts are in the directory ```./scripts```. In the experimental results presented in the manuscript, we choose **transformer-based Pets** as the default setting, and specifically, we refer to such a model as **PatchTST-Adapter**. Similarly, we also provide **TimeMixer-Adapter**, **DLinear-Adapter**, and **TimesNet-Adapter** to represent **Linear and convolutional based Pets**, respectively. For example, if you want to get the multivariate forecasting results for **ETT** dataset, just run the following command, and you can open ```./result.txt``` to see the results once the training is done:
+4. Training. All the scripts are in the directory ```./scripts```. In the experimental results presented in the manuscript, we choose **transformer-based Pets** as the default setting, named as **PatchTST-Adapter**. Similarly, we also provide **TimeMixer-Adapter**, **DLinear-Adapter**, and **TimesNet-Adapter** to represent **Linear and convolutional based Pets**, respectively. For example, if you want to get the multivariate forecasting results for **ETT** dataset, just run the following command, and you can open ```./result.txt``` to see the results once the training is done:
 
 ```
 bash ./scripts/long_term_forecast/ETT_script/PatchTST_Adapter/ETTh1_32.sh
