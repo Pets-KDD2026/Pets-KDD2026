@@ -27,7 +27,7 @@ This paper presents a novel architecture capable of adapting to various time-ser
 
 The proposed Spectrum Decomposition and Amplitude Quantization (SDAQ) and Fluctuation Pattern Assisted (FPA) strategy can be seamlessly integrated into various deep models, in a plug-and-play fashion. This prompts us to investigate its generality by inserting FPA into diverse types of structures. We selected representative baselines composed of divergent underlying architectures. 
 
-Concretely, the attention-based PatchTST witnessed performance improvements of **34.8%** and **17.6%** on Solar and ECL respectively. The Linear-based TimeMixer and DLinear achieved enhancements of **14.5%** and **19.4%** on Traffic. The CNN-based TimesNet showed an improvement of **8.8%** on ETTm2. These findings authenticate that the proposed augmentation strategy is applicable to variegated deep architectures.
+Concretely, the attention-based Pets witnessed performance improvements of **34.8%** and **17.6%** on Solar and ECL respectively. The Linear-based TimeMixer and DLinear achieved enhancements of **14.5%** and **19.4%** on Traffic. The CNN-based TimesNet showed an improvement of **8.8%** on ETTm2. These findings authenticate that the proposed augmentation strategy is applicable to variegated deep architectures.
 
 ### Long-term Forecasting
 
