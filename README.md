@@ -1,4 +1,4 @@
-# Pets (Submitted to ICLR 2025)
+# Pets (Submitted to NIPS 2025)
 
 ### This is an offical implementation of "Pets: Generalizable Pattern Assisted Architecture for Time Series Analysis" submitted to NIPS2025.. 
 
