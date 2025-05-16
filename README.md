@@ -59,7 +59,7 @@ In the M4 dataset, compared to the challenging TimeMixer and TimesNet, Pets acco
 pip install -r requirements.txt
 ```
 
-3. Download data. You can download all the datasets from [Autoformer](https://drive.google.com/drive/folders/1ZOYpTUa82_jCcxIdTmyr0LXQfvaM9vIy). Create a seperate folder ```./dataset``` and put all the csv files in the directory.
+3. Download data. You can download all the datasets from Autoformer. Create a seperate folder ```./dataset``` and put all the csv files in the directory.
 
 4. Training. All the scripts are in the directory ```./scripts```. In the experimental results presented in the manuscript, we choose **transformer-based Pets** as the default setting, named as **PatchTST-Adapter**. Similarly, we also provide **TimeMixer-Adapter**, **DLinear-Adapter**, and **TimesNet-Adapter** to represent **Linear and convolutional based Pets**, respectively. For example, if you want to get the multivariate forecasting results for **ETT** dataset, just run the following command, and you can open ```./result.txt``` to see the results once the training is done:
 
@@ -100,26 +100,4 @@ bash ./scripts/zero_shot/PatchTST_Adapter/ETTm2_16.sh
 ```
 
 You can adjust the hyperparameters based on your needs (e.g. different patch length, different look-back windows and backbone modules.). We also provide codes for the baseline models.
-
-## Acknowledgement
-
-We appreciate the following github repo very much for the valuable code base and datasets:
-
-https://github.com/cure-lab/LTSF-Linear
-
-https://github.com/zhouhaoyi/Informer2020
-
-https://github.com/thuml/Autoformer
-
-https://github.com/MAZiqing/FEDformer
-
-https://github.com/alipay/Pyraformer
-
-https://github.com/ts-kim/RevIN
-
-https://github.com/timeseriesAI/tsai
-
-## Contact
-
-## Citation
 
