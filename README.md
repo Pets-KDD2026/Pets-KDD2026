@@ -1,6 +1,6 @@
-# Pets (Submitted to NIPS 2025)
+# Pets (Submitted to AAAI 2026)
 
-### This is an offical implementation of "Pets: Generalizable Pattern Assisted Architecture for Time Series Analysis" submitted to NIPS2025.. 
+### This is an offical implementation of "Pets: Generalizable Pattern Assisted Architecture for Time Series Analysis" submitted to AAAI2026. 
 
 [//]: # (:triangular_flag_on_post: Our model has been included in [GluonTS]&#40;https://github.com/awslabs/gluonts&#41;. Special thanks to the contributor @[kashif]&#40;https://github.com/kashif&#41;!)
 
