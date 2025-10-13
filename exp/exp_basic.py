@@ -1,45 +1,16 @@
 import os
 import torch
-from models import Autoformer, TimesNet, Nonstationary_Transformer, DLinear, FEDformer, \
-    Informer, LightTS, Reformer, ETSformer, Pyraformer, PatchTST, MICN, Crossformer, FiLM, iTransformer, \
-    Koopa, TiDE, FreTS, TimeMixer, TSMixer, SegRNN, TemporalFusionTransformer, SCINet, Transformer, \
-    PatchTST_Adapter, TimesNet_Adapter, DLinear_Adapter, TimeMixer_Adapter, ShowModel, Transformer_Adapter
+from models import PatchTST_Adapter, TimesNet_Adapter, DLinear_Adapter, TimeMixer_Adapter, Transformer_Adapter
 
 
 class Exp_Basic(object):
     def __init__(self, args):
         self.args = args
         self.model_dict = {
-            'TimesNet': TimesNet,
-            'Autoformer': Autoformer,
-            'Nonstationary_Transformer': Nonstationary_Transformer,
-            'DLinear': DLinear,
-            'FEDformer': FEDformer,
-            'Informer': Informer,
-            'LightTS': LightTS,
-            'Reformer': Reformer,
-            'ETSformer': ETSformer,
-            'PatchTST': PatchTST,
-            'Pyraformer': Pyraformer,
-            'MICN': MICN,
-            'Crossformer': Crossformer,
-            'FiLM': FiLM,
-            'iTransformer': iTransformer,
-            'Koopa': Koopa,
-            'TiDE': TiDE,
-            'FreTS': FreTS,
-            'TimeMixer': TimeMixer,
-            'TSMixer': TSMixer,
-            'SegRNN': SegRNN,
-            'TemporalFusionTransformer': TemporalFusionTransformer,
-            "SCINet": SCINet,
-            'Transformer': Transformer,
-
             'PatchTST_Adapter': PatchTST_Adapter,
             'TimesNet_Adapter': TimesNet_Adapter,
             'DLinear_Adapter': DLinear_Adapter,
             'TimeMixer_Adapter': TimeMixer_Adapter,
-            'ShowModel': ShowModel,
             'Transformer_Adapter': Transformer_Adapter,
         }
         if args.model == 'Mamba':
