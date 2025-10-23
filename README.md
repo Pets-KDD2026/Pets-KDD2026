@@ -51,7 +51,7 @@ bash ./scripts/anomaly_detection/SMD/PatchTST_Adapter_16.sh
 bash ./scripts/anomaly_detection/SMD/PatchTST_Adapter_32.sh
 ```
 
-and
+and (Zero-shot tasks require to train model, firstly. We default to saving the trained parameter files in the ```checkpoints``` directory.)
 
 ```
 bash ./scripts/zero_shot/PatchTST_Adapter/ETTh1_32.sh
